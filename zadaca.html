@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--HTML je jezik za oznacavanje hipertekstualnih datoteka. Ovo povise je deklaracija koja pregledniku kazuje koja je verzija jezika koristena u dokumentu, ovo je verzija HTML5-->
+
+<html>
+<!-- ovo povise je pocetna oznaka HTML dokumenta -->
+<!-- html element je korijenski element svake stranice. On ima djecu elemente koji su head i body -->
+  <head>
+  <!-- head element sadrzi metapodatke o stranici. Kad kazemo metapodatke mislimo na dodatne informacije koje se ne iscrtavaju u pregledniku -->
+  	<title>Eurovision 2024</title>
+    <!-- title element je primjer elementa koji se sastoji od pocetne i zavrsne oznake i teksta izmedju njih -->
+    <meta name="description" content="Stranica o rezultatima natjecanja Eurovision 2024">
+    <!-- meta element je primjer elementa koji nema pocetnu i zavrsnu iznaku jer je prazan, prazan u smislu da nema sadrzaj koji bi bio smjesten izmedju pocetne i zavrsne oznake i upravo zbog toga sadrzi samo jednu oznaku. Unutar pocetne oznake meta elementa vidimo da se koriste atributi. Atribut je par kljuc-vrijednost. kljuc nam definira znacenje atributa, a vrijednost tumacimo ovisno o znacenju. Npr. atribut name="description" nam kaze da je ovo metapodatak koji daje opis stranice. Atribut content="Stranica o rezultatima natjecanja Eurovision 2024" nam kaze da je sadrzaj opisa stranice tekst "Stranica o rezultatima natjecanja Eurovision 2024" -->
+    <meta name="keywords" content="Eurovision 2024, rezultati, pobjednik">
+    <meta name="author" content="Sara">
+    <style>
+      table, th, td {
+        border:1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+  <!-- body element sadrzi podatke koji se iscrtavaju na stranici, odnosno preglednik ih prikazuje -->
+    <h1 style="text-align:center;">Eurovision 2024</h1>
+    <!-- h1 je naslov na stranici najvece vaznosti. Najcesce stranica ima samo jedan element tipa h1 (moze ih imati i vise). Naslovi po vaznosti idu od h1 do h6 -->
+    <h2>O natjecanju</h2>
+    <!-- h2 je naslov drugi po vaznosti, koristi cemo ga za odjeljivanje teksta u cjeline, odnosno koristit cemo ga kao podnaslov -->
+    <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/04/eurovision-son-contest-2024.jpg?q=70&fit=contain&w=1280&h=&dpr=1" alt="Logo natjecanja Eurovision 2024" width=700>
+    <!-- img element je element koji predstavlja sliku koja ce se iscrtati u dijelu teksta gdje se sam element nalazi -->
+    <p>
+		Pjesma Eurovizije (eng. Eurovision Song Contest, skraćeno Eurosong; fr. Concours Eurovision de la Chanson), prvi put održana 1956., godišnji je festival zabavne glazbe natjecateljskog karaktera s velikim brojem država obuhvaćenim televizijskim prijenosom, u kojem sudjeluju izvođači iz zemalja čiji su nacionalne televizijske kuće aktivni članovi Europske radiodifuzne unije.
+    </p>
+	<p>
+		Ime festivala vezano je za televizijsku distributivnu mrežu Eurovizija (naziv pod kojim se danas najčešće podrazumijeva sama Pjesma Eurovizije) Europske radiodifuzne unije koja pokriva potencijalnih milijardu gledatelja. Danas se putem radija i televizije, osim u Europi, ovaj program prenosi i širom svijeta, te direktnim videotokom putem Interneta. Europska radiodifuzna unija je organizacija potpuno odvojena od Europske unije.
+    </p>
+    <h2>Domaćin</h2>
+    <p>
+		Dana 14. svibnja 2023., nedugo nakon što je Švedska pobijedila na natjecanju 2023., izvršna direktorica SVT-a Hanna Stjärne objavila je da će Švedska biti domaćin Pjesme Eurovizije 2024. Prema Stjärnenim riječima, planiranje natjecanja započet će iste večeri. Odabrano mjesto je Malmö Arena s 15.500 sjedala, višenamjenska dvorana koja služi kao mjesto za rukometne utakmice, utakmice floorballa, koncerte i druga događanja, poznato po tome što je već ugostilo natjecanje za Pjesmu Eurovizije 2013.
+    </p>
+    <h2>Rezultati</h2>
+	<p>
+		Finale se održalo 11. svibnja 2024. u 21:00 po CEST-u. Na finalu je sudjelovalo dvadeset i šest zemalja sastavljenih od pobjednice prethodnog izdanja, Švedske, Velike petorke (koja uključuje zemlju domaćina, Ujedinjeno Kraljevstvo, Njemačku, Francusku, Italiju i Španjolsku) te deset najbolje rangiranih zemalja svakog od dvaju polufinala. Svih trideset i sedam zemalja sudionica sa žirijem i televoteom, kao i zemlje koje ne sudjeluju u zbirnom online glasovanju kao Ostatak svijeta, glasovali su u finalu. Na dan finala, otprilike 9 sati prije održavanja istog, potvrđeno je da je Nizozemska, čiji je predstavnik Joost Klein trebao nastupiti kao peti po redu, diskvalificirana s natjecanja.
+    </p>
+    <table>
+      <caption>Final of the Eurovision Song Contest 2024</caption>
+      <tr><th>Rbr.</th><th>Država</th><th>Natjecatelj</th><th>Pjesma</th><th>Bodovi</th><th>Rang</th></tr>
+      <tr><td>21</td><td>Switzerland</td><td>Nemo</td><td>"The Code"</td><td>591</td><td>1</td></tr>
+      <tr><td>23</td><td>Croatia</td><td>Baby Lasagna</td><td>"Rim Tim Tagi Dim"</td><td>547</td><td>2</td></tr>
+      <tr><td>2</td><td>Ukraine</td><td>Alyona Alyona and Jerry Heil</td><td>"Teresa & Maria"</td><td>453</td><td>3</td></tr>
+      <tr><td>25</td><td>France</td><td>Slimane</td><td>"Mon amour"</td><td>445</td><td>4</td></tr>
+      <tr><td>6</td><td>Israel</td><td>Eden Golan</td><td>"Hurricane"</td><td>375</td><td>5</td></tr>
+      <tr><td>10</td><td>Ireland</td><td>Bambie Thug</td><td>"Doomsday Blue"</td><td>278</td><td>6</td></tr>
+      <tr><td>15</td><td>Italy</td><td>Angelina Mango</td><td>"La noia"</td><td>268</td><td>7</td></tr>
+      <tr><td>19</td><td>Armenia</td><td>Ladaniva</td><td>"Jako"</td><td>183</td><td>8</td></tr>
+      <tr><td>1</td><td>Sweden</td><td>Marcus & Martinus</td><td>"Unforgettable"</td><td>174</td><td>9</td></tr>
+      <tr><td>18</td><td>Portugal</td><td>Iolanda</td><td>"Grito"</td><td>152</td><td>10</td></tr>
+      <tr><td>12</td><td>Greece</td><td>Marina Satti</td><td>"Zari"</td><td>126</td><td>11</td></tr>
+      <tr><td>3</td><td>Germany</td><td>Isaak</td><td>"Always on the Run"</td><td>117</td><td>12</td></tr>
+      <tr><td>4</td><td>Luxembourg</td><td>Tali</td><td>"Fighter"</td><td>103</td><td>13</td></tr>
+      <tr><td>7</td><td>Lithuania</td><td>Silvester Belt</td><td>"Luktelk"</td><td>90</td><td>14</td></tr>
+      <tr><td>20</td><td>Cyprus</td><td>Silia Kapsis</td><td>"Liar"</td><td>78</td><td>15</td></tr>
+      <tr><td>11</td><td>Latvia</td><td>Dons</td><td>"Hollow"</td><td>64</td><td>16</td></tr>
+      <tr><td>16</td><td>Serbia</td><td>Teya Dora</td><td>"Ramonda"</td><td>54</td><td>17</td></tr>
+      <tr><td>13</td><td>United Kingdom</td><td>Olly Alexander</td><td>"Dizzy"</td><td>46</td><td>18</td></tr>
+      <tr><td>17</td><td>Finland</td><td>Windows95man[d]</td><td>"No Rules!"</td><td>38</td><td>19</td></tr>
+      <tr><td>9</td><td>Estonia</td><td>5miinust and Puuluup</td><td>"(Nendest) narkootikumidest ei tea me (küll) midagi"</td><td>37</td><td>20</td></tr>
+      <tr><td>24</td><td>Georgia</td><td>Nutsa Buzaladze</td><td>"Firefighter"</td><td>34</td><td>21</td></tr>
+      <tr><td>8</td><td>Spain</td><td>Nebulossa</td><td>"Zorra"</td><td>30</td><td>22</td></tr>
+      <tr><td>22</td><td>Slovenia</td><td>Raiven</td><td>"Veronika"</td><td>27</td><td>23</td></tr>
+      <tr><td>26</td><td>Austria</td><td>Kaleen</td><td>"We Will Rave"</td><td>24</td><td>24</td></tr>
+      <tr><td>14</td><td>Norway</td><td>Gåte</td><td>"Ulveham"</td><td>16</td><td>25</td></tr>
+      <tr><td>5</td><td>Netherlands</td><td>Joost Klein</td><td>"Europapa"</td><td>—<sup><a href="#diskvalifikacija">1<a></sup></td><td>—<sup><a href="#diskvalifikacija">1<a></sup></td></tr>
+    </table>
+    <h2>Predstavnik Hrvatske</h2>
+	<p>
+    	Marko Purišić poznat kao Baby Lasagna. Osvojio je fantastično drugo mjesto. Bravo Marko!
+    </p>
+    <img src="https://i.ytimg.com/vi/6LyjyuaQggs/maxresdefault.jpg" alt="Marko Purišić aka Baby Lasagna" width=700>
+    
+    <p id="diskvalifikacija">[1] Joost Klein iz Nizozemske dikvalificiran je nakon polufinala.</p>
+  </body>
+</html>
+<!-- ovo povise je zavrsna oznaka HTML dokumenta -->
